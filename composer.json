@@ -1,0 +1,21 @@
+{
+    "name": "egor3/rickandmortyapi",
+    "description": "JSON-RPC 2.0 API for rickandmortyapi.com",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Egor Kovalev"
+        }
+    ],
+    "require": {
+        "psr/log": "^3.0",
+        "felixfbecker/advanced-json-rpc": "^3.2",
+        "monolog/monolog": "^3.4",
+        "guzzlehttp/guzzle": "^7.7"
+    }
+}
